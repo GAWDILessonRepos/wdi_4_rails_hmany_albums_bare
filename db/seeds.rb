@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Album.delete_all
+
+nevermind = Album.create!(title: "Nevermind", genre: 'rock')
+sea_change = Album.create!(title: "Sea Change", genre: 'jazz')
